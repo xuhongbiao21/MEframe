@@ -1,0 +1,23 @@
+{
+    "name": "许洪标/frame",
+    "authors": [
+        {
+            "name": "许洪标",
+            "email": "495958434@qq.com"
+        }
+    ],
+    "require": {
+        "google/recaptcha": "~1.1",
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    }
+}
